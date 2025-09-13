@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Multi-colored radial background -->
+  <defs>
+    <radialGradient id="rainbow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="10%" stop-color="#9be03e"/>
+      <stop offset="20%" stop-color="#a8e244"/>
+      <stop offset="30%" stop-color="#f6ec5a"/>
+      <stop offset="40%" stop-color="#ffda47"/>
+      <stop offset="50%" stop-color="#ffa726"/>
+      <stop offset="60%" stop-color="#ff7043"/>
+      <stop offset="70%" stop-color="#e91e63"/>
+      <stop offset="80%" stop-color="#9c27b0"/>
+      <stop offset="90%" stop-color="#3f51b5"/>
+      <stop offset="100%" stop-color="#03a9f4"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Colored gear/sunburst background -->
+  <path d="M256 66C350.934 66 428 143.066 428 238C428 332.934 350.934 410 256 410C161.066 410 84 332.934 84 238C84 143.066 161.066 66 256 66Z" fill="url(#rainbow)"/>
+  
+  <!-- Sunburst rays -->
+  <path d="M256 66L276 26M256 66L236 26M256 66L296 36M256 66L216 36M256 66L316 46M256 66L196 46M256 66L336 56M256 66L176 56M256 66L346 76M256 66L166 76M256 66L356 96M256 66L156 96M256 66L366 116M256 66L146 116M256 66L376 136M256 66L136 136M256 66L376 166M256 66L136 166M256 66L376 196M256 66L136 196M256 66L376 226M256 66L136 226M256 66L366 256M256 66L146 256M256 66L356 286M256 66L156 286M256 66L346 316M256 66L166 316M256 66L326 336M256 66L186 336M256 66L306 356M256 66L206 356M256 66L286 376M256 66L226 376M256 66L266 386M256 66L246 386" 
+        stroke="white" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Android body with white outline -->
+  <path d="M256 140C290 140 318 168 318 202V326C318 343 304 357 287 357H225C208 357 194 343 194 326V202C194 168 222 140 256 140Z" 
+        fill="none" stroke="white" stroke-width="10"/>
+  
+  <!-- Head -->
+  <circle cx="256" cy="190" r="30" fill="none" stroke="white" stroke-width="10"/>
+  
+  <!-- Eyes -->
+  <circle cx="246" cy="180" r="5" fill="white"/>
+  <circle cx="266" cy="180" r="5" fill="white"/>
+  
+  <!-- Arms -->
+  <path d="M194 240H154C144 240 136 248 136 258V298C136 308 144 316 154 316H164C174 316 182 308 182 298V240" 
+        fill="none" stroke="white" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M318 240H358C368 240 376 248 376 258V298C376 308 368 316 358 316H348C338 316 330 308 330 298V240" 
+        fill="none" stroke="white" stroke-width="10" stroke-linejoin="round"/>
+  
+  <!-- Legs -->
+  <path d="M226 358V398C226 408 234 416 244 416H254C264 416 272 408 272 398V358" 
+        fill="none" stroke="white" stroke-width="10" stroke-linejoin="round"/>
+</svg>

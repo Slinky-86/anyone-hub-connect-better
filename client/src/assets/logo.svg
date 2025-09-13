@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Colorful sunburst background -->
+  <defs>
+    <linearGradient id="color1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="25%" stop-color="#CDDC39"/>
+      <stop offset="50%" stop-color="#FFEB3B"/>
+      <stop offset="75%" stop-color="#FFC107"/>
+      <stop offset="100%" stop-color="#FF9800"/>
+    </linearGradient>
+    <linearGradient id="color2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="25%" stop-color="#009688"/>
+      <stop offset="50%" stop-color="#00BCD4"/>
+      <stop offset="75%" stop-color="#03A9F4"/>
+      <stop offset="100%" stop-color="#2196F3"/>
+    </linearGradient>
+    <linearGradient id="color3" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#9C27B0"/>
+      <stop offset="25%" stop-color="#673AB7"/>
+      <stop offset="50%" stop-color="#3F51B5"/>
+      <stop offset="75%" stop-color="#E91E63"/>
+      <stop offset="100%" stop-color="#F44336"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sunburst background -->
+  <path d="M256 56 L256 456 L56 256 Z" fill="url(#color1)"/>
+  <path d="M256 56 L256 456 L456 256 Z" fill="url(#color2)"/>
+  <path d="M56 256 L456 256 L256 456 Z" fill="url(#color3)"/>
+  <path d="M56 256 L456 256 L256 56 Z" fill="#8BC34A"/>
+
+  <!-- Android outline -->
+  <g transform="translate(130, 120) scale(0.5)">
+    <path d="M256 120C325 120 380 175 380 244V400C380 425 360 445 335 445H177C152 445 132 425 132 400V244C132 175 187 120 256 120Z" 
+          fill="none" stroke="white" stroke-width="22" stroke-linejoin="round"/>
+    
+    <!-- Head -->
+    <circle cx="256" cy="200" r="50" fill="none" stroke="white" stroke-width="22"/>
+    
+    <!-- Eyes -->
+    <circle cx="236" cy="190" r="8" fill="white"/>
+    <circle cx="276" cy="190" r="8" fill="white"/>
+    
+    <!-- Arms -->
+    <path d="M132 250H72C52 250 36 266 36 286V346C36 366 52 382 72 382H92C112 382 128 366 128 346V250" 
+          fill="none" stroke="white" stroke-width="22" stroke-linejoin="round"/>
+    <path d="M380 250H440C460 250 476 266 476 286V346C476 366 460 382 440 382H420C400 382 384 366 384 346V250" 
+          fill="none" stroke="white" stroke-width="22" stroke-linejoin="round"/>
+    
+    <!-- Legs -->
+    <path d="M215 446V506C215 526 231 542 251 542H261C281 542 297 526 297 506V446" 
+          fill="none" stroke="white" stroke-width="22" stroke-linejoin="round"/>
+  </g>
+</svg>

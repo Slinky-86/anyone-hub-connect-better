@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="256" height="256">
+  <!-- Background -->
+  <circle cx="256" cy="256" r="256" fill="#f0f0f0"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="profileGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#14b8a6" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="256" fill="url(#profileGradient)"/>
+  
+  <!-- Head and shoulders -->
+  <circle cx="256" cy="180" r="100" fill="#14b8a6"/>
+  <path d="M120 400C120 350 183 310 256 310C329 310 392 350 392 400V430H120V400Z" fill="#14b8a6"/>
+  
+  <!-- anyone-hub.dev text wrapped in a circular arc -->
+  <defs>
+    <path id="textPath" d="M90,256 a166,166 0 1,1 332,0 a166,166 0 1,1 -332,0"/>
+  </defs>
+  <text font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#444444">
+    <textPath href="#textPath" startOffset="25%">anyone-hub.dev</textPath>
+  </text>
+  
+  <!-- Modern pattern details -->
+  <circle cx="226" cy="170" r="14" fill="white" opacity="0.6"/>
+  <circle cx="286" cy="170" r="14" fill="white" opacity="0.6"/>
+</svg>
